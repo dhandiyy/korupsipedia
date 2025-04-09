@@ -1,0 +1,13 @@
+{
+    "workbench.editor.tabSizingFixedMaxWidth": 600,
+    "workbench.editor.tabSizing": "shrink",
+    "prettier.tabWidth": 4,
+    "prettier.endOfLine": "auto",
+    "prettier.printWidth": 600,
+    "prettier.proseWrap": "always",
+    "editor.fontSize": 14,
+    "debug.console.fontSize": 12,
+    "scm.inputFontSize": 12,
+    "terminal.integrated.fontSize": 12,
+    "chat.editor.fontSize": 12
+}
