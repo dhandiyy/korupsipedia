@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Korupsipedia
 
-## Getting Started
+Korupsipedia is a web platform that provides information about proven major corruption cases in Indonesia's history. This project aims to document and present corruption information in a structured manner as an educational resource and reflection tool for future generations.
 
-First, run the development server:
+## 🚀 About The Project
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This project is being developed as a personal portfolio with a focus on fullstack development using Next.js and TypeScript. The website allows users to view information about corruption cases and contribute by submitting current information through a provided form.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 💻 Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Frontend & Backend**: [Next.js](https://nextjs.org/) (TypeScript)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Database**: PostgreSQL
+- **ORM**: [Prisma](https://www.prisma.io/)
+- **Deployment**: [Vercel](https://vercel.com/)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✨ Features
 
-## Learn More
+- **Case Browser**: Browse through major proven corruption cases in Indonesia
+- **Contribution Form**: Form for users who wish to provide current information regarding corruption cases
+- **Admin Dashboard**: Admin panel for verification and management of content submitted by users
+- **SEO Optimized**: Optimized for search engines using Next.js features
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Getting Started
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Prerequisites
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Node.js (version 16 or newer)
+- PostgreSQL
+- NPM
 
-## Deploy on Vercel
+### Installation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Clone this repository
+   ```bash
+   git clone https://github.com/username/korupsipedia.git
+   cd korupsipedia
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. Install dependencies
+   ```bash
+   npm install
+   ```
+
+3. Configure environment variables
+   ```bash
+   cp .env.example .env.local
+   ```
+   Then edit `.env.local` and fill it with your PostgreSQL database configuration
+
+4. Run Prisma migrations
+   ```bash
+   npx prisma migrate dev
+   ```
+
+5. Run the development server
+   ```bash
+   npm run dev
+   ```
+
+6. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+## 📝 Contributing
+
+This project is currently under development. Contributions in the form of code, suggestions, or bug reports are highly appreciated.
+
+To contribute to the website content (corruption case information), please use the contribution form available on the website.
+
+## 🔍 Project Goals
+
+Korupsipedia aims to:
+
+1. Provide structured information about major corruption cases in Indonesia
+2. Serve as an educational resource and reflection tool for future generations
+3. Centralize data on corruption cases proven in court
+4. Enable public participation in documenting corruption cases
+
+## 📡 Deployment
+
+This project will be deployed using Vercel for the initial development phase.
+
+## 📊 Project Status
+
+This project is currently in active development.
